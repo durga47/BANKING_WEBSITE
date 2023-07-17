@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.whole {
+    display: flex;
+    flex-direction: column;
+    background-image: url("index.avif");
+    background-repeat: no-repeat;
+    background-size: 1275px;
+}
+
+.bank {
+    display: flex;
+    flex-direction: row;
+    background-image: url("div.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1272px 209px;
+}
+
+.bank img {
+    background-color: aliceblue;
+    height: 138px;
+}
+
+.bank h1 {
+    padding-left: 43px;
+    padding-top: 11px;
+    font-size: 95px;
+}
+
+.bg{
+    height: 445px;
+}
+
+.margin {
+    border: 5px solid;
+    margin: auto;
+    width: 409px;
+    height: 325px;
+    padding: 0px;
+    box-shadow:0 0 20px 2px rgba(1,10,0,0.5);
+}
+
+.index img {
+    width: 126px;
+    padding-left: 136px;
+    padding-right: 148px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: aliceblue;
+}
+
+.but {
+    padding-left: 56px;
+    padding-top: 32px;
+    padding-bottom: 57px;
+    background-color: aliceblue;
+}
+
+.but button {
+    padding: 8px 12px;
+    border-radius: 9px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    width: 12vw;
+}
+
+.but button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.main {
+    background-image: url("main.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 153vh;
+}
+
+.main1 {
+    background-image: url("main.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 153vh;
+}
+
+.main h2{
+    padding-left: 40px;
+    padding-top: 64px;
+    font-size: 97px;
+}
+
+.bank1 {
+    background-image: url("div.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1280px 170px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 37px;
+    padding-bottom: 49px;
+    padding-top: 16px;
+
+}
+
+.bank1 h1{
+padding-left: 18px;
+    padding-top: 42px;
+    font-size: 58px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-image:url(nav.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 24vw;
+    height: 153vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttons {
+    padding-left: 134px;
+    padding-top: 73px;
+}
+
+.buttons button {
+    padding: 8px 12px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0px 7px;
+    cursor: pointer;
+    width: 18vw;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.contactform {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding: 0 34px;
+    padding-top: 50px;
+}
+
+.contactform h1 {
+    font-family: 'Arial Narrow', Arial;
+
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 20vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.btn button {
+    padding: 9px 9px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 10px;
+    margin: -7px 3px;
+    cursor: pointer;
+    width: 7vw;
+}
+
+.btn button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.balance{
+    padding-left: 339px;
+    padding-top: 57px;
+}
+
+.check{
+    padding-left: 162px;
+    padding-top: 91px;
+}
+.check table{
+    height: 153px;
+}
+
+.transfer{
+    padding-left: 332px;
+    padding-top: 86px;
+}
+
+.form{
+    width: 889px;
+    position: relative;
+    margin: 6% auto;
+    padding-left: 127px;
+}
+
+.history
+{
+    padding-left: 156px;
+    padding-top: 64px;
+}
